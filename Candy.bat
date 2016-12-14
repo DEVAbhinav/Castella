@@ -47,6 +47,8 @@ exit /b
 <body>
 
     <script language='javascript' >
+    window.resizeTo(300,488);
+    moveTo(1050,100)
         function pipeText(pass) {
             var choice=pass.value;
             //console.log(pass);
