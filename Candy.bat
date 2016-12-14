@@ -17,7 +17,7 @@ if %choice%==fantasy (
 explorer D:\Abhinav\Projects\3rd yr\fantasy
 cd D:\Abhinav\Projects\3rd yr\fantasy
 cd d:
-cmd.exe 
+start cmd.exe 
 subl D:\Abhinav\Projects\3rd yr\fantasy
 )
 
@@ -31,13 +31,19 @@ subl D:\Abhinav\Projects\3rd yr\scrapeAmazon
 )
 
 echo your choice is %choice%
-pause
+cd D:\Abhinav\Projects\3rd yr\Castella
+d:
+Candy
+
 exit /b
 -->
 
 
 <html>
-<head><title>choice submitter</title></head>
+<head><title>Candy</title><
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
 <body>
 
     <script language='javascript' >
@@ -49,14 +55,19 @@ exit /b
 
         }
     </script>
+    <div class = "container">
+    <h1>Candy <small>version- 1.0</small></h1>
+    <h4> Choose any one of the option to open the helpers: <mark> Happy Coding</mark></h4>
+    </div>
+    <div class = "container">
+    <input type='button' class = "btn btn-primary btn-md" name='codeChef' value= "codeChef" onClick="pipeText(this)"  size='15'></input>
+    <hr>
+    <input type='button' class = "btn btn-primary btn-md" name='Fantasy' value= "fantasy"  onClick="pipeText(this)" size='15'></input>
+    <hr>
+    <input type='button' class = "btn btn-primary btn-md" name='scrapeAmazon' value= "scrapeAmazon" onClick="pipeText(this)"  size='15'></input>
+    <hr>
+    </div>
 
-    <input type='button' name='codeChef' value= "codeChef" onClick="pipeText(this)"  size='15'></input>
-    <hr>
-    <input type='button' name='Fantasy' value= "fantasy"  onClick="pipeText(this)" size='15'></input>
-    <hr>
-    <input type='button' name='scrapeAmazon' value= "scrapeAmazon" onClick="pipeText(this)"  size='15'></input>
-    
-    <hr>
     
 
 </body>
