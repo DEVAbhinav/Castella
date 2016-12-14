@@ -40,14 +40,12 @@ exit /b
 
 
 <html>
-<head><title>Candy</title><
+<head><title>Candy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-</head>
-<body>
 
-    <script language='javascript' >
-    window.resizeTo(300,488);
+<script language='javascript' >
+    window.resizeTo(310,518);
     moveTo(1050,100)
         function pipeText(pass) {
             var choice=pass.value;
@@ -57,17 +55,22 @@ exit /b
 
         }
     </script>
+</head>
+<body>
+
+    
     <div class = "container">
     <h1>Candy <small>version- 1.0</small></h1>
     <h4> Choose any one of the option to open the helpers: <mark> Happy Coding</mark></h4>
     </div>
-    <div class = "container">
-    <input type='button' class = "btn btn-primary btn-md" name='codeChef' value= "codeChef" onClick="pipeText(this)"  size='15'></input>
+    <hr>
+    <div class = "container" align ="center">
+    <input type='button' class = "btn btn-primary btn-md text-center" name='codeChef' value= "codeChef" onClick="pipeText(this)"  size='15'></input>
     <hr>
     <input type='button' class = "btn btn-primary btn-md" name='Fantasy' value= "fantasy"  onClick="pipeText(this)" size='15'></input>
     <hr>
     <input type='button' class = "btn btn-primary btn-md" name='scrapeAmazon' value= "scrapeAmazon" onClick="pipeText(this)"  size='15'></input>
-    <hr>
+    
     </div>
 
     
