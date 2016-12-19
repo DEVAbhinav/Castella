@@ -40,7 +40,9 @@ exit /b
 
 
 <html>
-<head><title>Candy</title>
+<head>
+<HTA:APPLICATION SCROLL="no" SYSMENU="no" >
+<title>Candy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 
@@ -64,7 +66,7 @@ exit /b
     <h4> Choose any one of the option to open the helpers: <mark> Happy Coding</mark></h4>
     </div>
     <hr>
-    <div class = "container" align ="center">
+    <div class = "container" anylign ="center">
     <input type='button' class = "btn btn-primary btn-md text-center" name='codeChef' value= "codeChef" onClick="pipeText(this)"  size='15'></input>
     <hr>
     <input type='button' class = "btn btn-primary btn-md" name='Fantasy' value= "fantasy"  onClick="pipeText(this)" size='15'></input>
