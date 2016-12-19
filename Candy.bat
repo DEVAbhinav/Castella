@@ -41,7 +41,7 @@ exit /b
 
 <html>
 <head>
-<HTA:APPLICATION SCROLL="no" SYSMENU="no" >
+<HTA:APPLICATION  SYSMENU="no" >
 <title>Candy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
