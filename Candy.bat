@@ -10,7 +10,7 @@ explorer D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
 cd D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
 d:
 start cmd.exe 
-subl D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
+subl -n D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
 )
 
 if %choice%==fantasy (

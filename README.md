@@ -1,6 +1,6 @@
 # Castella
-Windows Scripting . Candy version 1.0
+Windows Scripting . Candy version 2.0
 
-Candy 1.0 is completed @15th dec 2.08 am Many things are hard coded 
-Many improvement is to be done in cany like Graphically adding a project to candy
-then self learning implementation in candy. T hese are just ideas now.
+Candy 2.0 is aimed to make candy more dynamic. So that it could be deployed to other system.
+Key Plan by now is to take input form user to default path of folder.
+Let them add  default multiple folder to open. Ask the project name.
