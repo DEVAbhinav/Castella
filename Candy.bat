@@ -11,6 +11,9 @@ cd D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
 d:
 start cmd.exe 
 subl -n D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
+cd D:\Abhinav\Projects\3rd yr\Castella
+d:
+Candy
 )
 
 if %choice%==fantasy (
@@ -19,6 +22,11 @@ cd D:\Abhinav\Projects\3rd yr\fantasy
 cd d:
 start cmd.exe 
 subl D:\Abhinav\Projects\3rd yr\fantasy
+cd D:\Abhinav\Projects\3rd yr\Castella
+d:
+Candy
+
+
 )
 
 if %choice%==scrapeAmazon (
@@ -27,13 +35,14 @@ cd D:\Abhinav\Projects\3rd yr\scrapeAmazon
 d:
 start cmd.exe D:\Abhinav\Projects\3rd yr\scrapeAmazon
 subl D:\Abhinav\Projects\3rd yr\scrapeAmazon
+cd D:\Abhinav\Projects\3rd yr\Castella
+d:
+Candy
 
 )
 
 echo your choice is %choice%
-cd D:\Abhinav\Projects\3rd yr\Castella
-d:
-Candy
+
 
 exit /b
 -->
@@ -41,7 +50,7 @@ exit /b
 
 <html>
 <head>
-<HTA:APPLICATION  SYSMENU="no" >
+<HTA:APPLICATION   >
 <title>Candy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
@@ -62,7 +71,7 @@ exit /b
 
     
     <div class = "container">
-    <h1>Candy <small>version- 1.0</small></h1>
+    <h1>Candy <small>version- 2.0</small></h1>
     <h4> Choose any one of the option to open the helpers: <mark> Happy Coding</mark></h4>
     </div>
     <hr>
