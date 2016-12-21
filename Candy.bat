@@ -1,7 +1,7 @@
 <!-- :
 :: textSubmitter.bat
 @echo off
-
+set choice=""
 for /f "tokens=* delims=" %%p in ('mshta.exe "%~f0"') do (
     set "choice=%%p"
 )
@@ -11,7 +11,7 @@ cd D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
 d:
 start cmd.exe 
 subl -n D:\Abhinav\Projects\3rd yr\carrot-cake\CodeChef
-cd D:\Abhinav\Projects\3rd yr\Castella
+cd D:\Abhinav\Projects\3rd yr\Castella\Castella
 d:
 Candy
 )
@@ -22,7 +22,7 @@ cd D:\Abhinav\Projects\3rd yr\fantasy
 cd d:
 start cmd.exe 
 subl D:\Abhinav\Projects\3rd yr\fantasy
-cd D:\Abhinav\Projects\3rd yr\Castella
+cd D:\Abhinav\Projects\3rd yr\Castella\Castella
 d:
 Candy
 
@@ -35,7 +35,7 @@ cd D:\Abhinav\Projects\3rd yr\scrapeAmazon
 d:
 start cmd.exe D:\Abhinav\Projects\3rd yr\scrapeAmazon
 subl D:\Abhinav\Projects\3rd yr\scrapeAmazon
-cd D:\Abhinav\Projects\3rd yr\Castella
+cd D:\Abhinav\Projects\3rd yr\Castella\Castella
 d:
 Candy
 
@@ -50,25 +50,16 @@ exit /b
 
 <html>
 <head>
-<HTA:APPLICATION   >
+<HTA:APPLICATION  applicationName="Candy-2.0" />
 <title>Candy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 
-<script language='javascript' >
-    window.resizeTo(310,518);
-    moveTo(1050,100)
-        function pipeText(pass) {
-            var choice=pass.value;
-            //console.log(pass);
-            var fso= new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1);
-            close(fso.Write(choice));
-
-        }
-    </script>
 </head>
+
 <body>
 
+    <script   type='text/javascript' scr="startup.js"  ></script>
     
     <div class = "container">
     <h1>Candy <small>version- 2.0</small></h1>
