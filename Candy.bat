@@ -54,12 +54,22 @@ exit /b
 <title>Candy</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+<script language='javascript' >
+ window.resizeTo(310,518);
+    moveTo(1050,100)
+        function pipeText(pass) {
+            var choice=pass.value;
+            //console.log(pass);
+            var fso= new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1);
+            close(fso.Write(choice));
 
+        }
+        </script>
 </head>
 
 <body>
 
-    <script   type='text/javascript' scr="startup.js"  ></script>
+   
     
     <div class = "container">
     <h1>Candy <small>version- 2.0</small></h1>
