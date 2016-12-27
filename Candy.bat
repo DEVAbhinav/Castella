@@ -74,7 +74,6 @@ exit /b
     <input type='button' class = "btn btn-primary btn-md" name='scrapeAmazon' value= "scrapeAmazon" onClick="pipeText(this)"  size='15'></input>
     
     </div>
-
     
 
 </body>
